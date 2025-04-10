@@ -52,8 +52,8 @@ bool BookingManager::bookCar(int carId, const std::string& renterEmail) {
 
     sqlite3_bind_int(stmt, 1, carId);
     sqlite3_bind_text(stmt, 2, renterEmail.c_str(), -1, SQLITE_STATIC);
-    sqlite3_bind_text(stmt, 3, "2025-04-10", -1, SQLITE_STATIC);  // example start
-    sqlite3_bind_text(stmt, 4, "2025-04-11", -1, SQLITE_STATIC);  // example end
+    sqlite3_bind_text(stmt, 3, "2025-04-10", -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 4, "2025-04-11", -1, SQLITE_STATIC);
 
     rc = sqlite3_step(stmt);
     sqlite3_finalize(stmt);

@@ -37,7 +37,7 @@ void EditCarDialog::onSaveClicked() {
     originalCar.setAvailability(availabilityInput->text().toStdString());
     originalCar.setPricePerDay(priceInput->text().toDouble());
 
-    accept();  // closes the dialog with QDialog::Accepted
+    accept();
 }
 
 Car EditCarDialog::getUpdatedCar() const {

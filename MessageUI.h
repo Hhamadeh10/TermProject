@@ -23,19 +23,19 @@ MessageUI(const std::string& currentUserEmail,
 private slots:
     void sendMessage();
     void loadMessages();
-    void onBackClicked();  // ✅ New slot
+    void onBackClicked();
 
 private:
     std::string currentUser;
     std::string otherUser;
     int carId;
     MessageManager* messageManager;
-    UIMediator* mediator;  // ✅ Add this
+    UIMediator* mediator;
 
     QListWidget* messageList;
     QLineEdit* inputField;
     QPushButton* sendButton;
-    QPushButton* backButton;  // ✅ Add back button
+    QPushButton* backButton;
 
     void appendMessage(const Message& msg);
 };

@@ -25,12 +25,11 @@ private slots:
     void onDeleteClicked(int row);
     void onBackClicked();
 private:
-    void loadOwnerCars();  // ✅ new method
+    void loadOwnerCars();
 
     CarManager* carManager;
     UIMediator* mediator;
 
-    // Inputs
     QLineEdit* modelInput;
     QLineEdit* yearInput;
     QLineEdit* mileageInput;
@@ -40,7 +39,7 @@ private:
 
     QPushButton* backButton;
     QPushButton* createButton;
-    QTableWidget* carTable;  // ✅ to display listings
+    QTableWidget* carTable;
 
     std::vector<int> carIds;
 };

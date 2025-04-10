@@ -23,4 +23,4 @@ private:
     void closeDatabase();
 };
 
-#endif // USERMANAGER_H
+#endif

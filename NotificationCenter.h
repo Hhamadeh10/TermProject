@@ -3,8 +3,9 @@
 
 #include "Observer.h"
 #include <vector>
+#include "Subject.h"
 
-class NotificationCenter {
+class NotificationCenter : public Subject {
 private:
     std::vector<Observer*> observers;
 

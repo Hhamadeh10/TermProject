@@ -22,7 +22,7 @@ public:
             std::cout << "Answer to question " << questionIndex + 1 << " correct.\n";
             if (nextHandler)
             {
-                return nextHandler->handle(userInputs); // Pass entire input vector
+                return nextHandler->handle(userInputs);
             }
             return true;
         }
@@ -34,4 +34,4 @@ public:
     }
 };
 
-#endif // SECURITY_QUESTION_HANDLER_H
+#endif

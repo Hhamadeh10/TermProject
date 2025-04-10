@@ -27,7 +27,7 @@ private slots:
 private:
     CarManager* carManager;
     BookingManager* bookingManager;
-    PaymentProxy* paymentProxy;
+    PaymentInterface* paymentProxy;
     UIMediator* mediator;
     MessageManager* messageManager;
 

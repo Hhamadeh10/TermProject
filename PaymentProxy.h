@@ -4,13 +4,16 @@
 #include "PaymentInterface.h"
 #include <string>
 #include "UserManager.h"
+#include "RealPaymentService.h"
 
 class PaymentProxy : public PaymentInterface {
 private:
-    UserManager* userManager;
+    RealPaymentService* realService;
 
 public:
     PaymentProxy(UserManager* userManager);
+
+    ~PaymentProxy();
 
     bool processPayment(const std::string& fromUser, const std::string& toUser, double amount) override;
 

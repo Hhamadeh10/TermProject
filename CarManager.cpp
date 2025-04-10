@@ -67,7 +67,7 @@ bool CarManager::addCar(const Car& car) {
     sqlite3_bind_int(stmt, 3, car.getYear());
     sqlite3_bind_int(stmt, 4, car.getMileage());
     sqlite3_bind_text(stmt, 5, car.getLocation().c_str(), -1, SQLITE_TRANSIENT);
-    sqlite3_bind_text(stmt, 6, car.getAvailability().c_str(), -1, SQLITE_TRANSIENT); // Example: "2025-04-01 to 2025-04-07"
+    sqlite3_bind_text(stmt, 6, car.getAvailability().c_str(), -1, SQLITE_TRANSIENT);
     sqlite3_bind_double(stmt, 7, car.getPricePerDay());
 
     rc = sqlite3_step(stmt);
@@ -89,7 +89,7 @@ return !(end1 < start2 || end2 < start1);
 bool CarManager::isCarAvailable(int carId, const std::string& startDate, const std::string& endDate) {
 for (const auto& booking : bookings) {
 if (booking.carId == carId && isOverlap(booking.startDate, booking.endDate, startDate, endDate)) {
- return false; // Conflict found
+ return false;
 }
 }
 return true;
@@ -143,7 +143,7 @@ std::vector<Car> CarManager::getCarsByOwner(const std::string& email) {
         sqlite3_bind_text(stmt, 1, email.c_str(), -1, SQLITE_STATIC);
 
         while (sqlite3_step(stmt) == SQLITE_ROW) {
-            int id = sqlite3_column_int(stmt, 0);  // ✅ car ID
+            int id = sqlite3_column_int(stmt, 0);
             std::string model = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 1));
             int year = sqlite3_column_int(stmt, 2);
             int mileage = sqlite3_column_int(stmt, 3);
@@ -151,10 +151,9 @@ std::vector<Car> CarManager::getCarsByOwner(const std::string& email) {
             float price = static_cast<float>(sqlite3_column_double(stmt, 5));
             std::string availability = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 6));
 
-            // ✅ Build the car and set its ID + owner
             Car car(model, year, mileage, location, price, availability);
-            car.setId(id);                   // ✅ Track ID
-            car.setOwnerEmail(email);        // ✅ Track owner
+            car.setId(id);
+            car.setOwnerEmail(email);
 
             cars.push_back(car);
         }

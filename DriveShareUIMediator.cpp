@@ -4,23 +4,23 @@
 
 void DriveShareUIMediator::notify(const std::string& sender, const std::string& event) {
     if (sender == "LoginWindow" && event == "login_success") {
-        stackedWidget->setCurrentIndex(3); // DashboardUI
+        stackedWidget->setCurrentIndex(3);
     } else if (sender == "LoginWindow" && event == "go_to_register") {
-        stackedWidget->setCurrentIndex(1);  // ✅ index of RegisterWindow
+        stackedWidget->setCurrentIndex(1);
     } else if (sender == "Dashboard" && event == "go_to_owner") {
-        stackedWidget->setCurrentIndex(2); // MainMenuUI
+        stackedWidget->setCurrentIndex(2);
     } else if (sender == "Dashboard" && event == "go_to_renter") {
-        stackedWidget->setCurrentIndex(4); // RenterBrowseUI
+        stackedWidget->setCurrentIndex(4);
     } else if (event == "logout") {
         UserSession::getInstance()->logout();
         mainMenuUI->clearCarTable();
-        stackedWidget->setCurrentIndex(0); // Back to login
+        stackedWidget->setCurrentIndex(0);
     } else if ((sender == "MainMenuUI" || sender == "RenterBrowseUI" || sender == "UserProfileUI" || sender == "MessageUI") && event == "back_to_dashboard") {
-        stackedWidget->setCurrentIndex(3); // Dashboard index
+        stackedWidget->setCurrentIndex(3);
     }else if (sender == "RegisterWindow" && event == "back_to_login") {
-        stackedWidget->setCurrentIndex(0); // Login screen index
+        stackedWidget->setCurrentIndex(0);
     }else if (sender == "Dashboard" && event == "go_to_profile") {
-        stackedWidget->setCurrentIndex(5);  // Or whatever index your UserProfileUI is at
+        stackedWidget->setCurrentIndex(5);
     }
 }
 

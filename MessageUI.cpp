@@ -32,7 +32,6 @@ sendButton = new QPushButton("Send", this);
 layout->addWidget(sendButton);
 connect(sendButton, &QPushButton::clicked, this, &MessageUI::sendMessage);
 
-// ✅ Back button
 backButton = new QPushButton("Back to Dashboard", this);
 layout->addWidget(backButton);
 connect(backButton, &QPushButton::clicked, this, &MessageUI::onBackClicked);

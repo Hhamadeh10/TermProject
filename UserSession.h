@@ -8,15 +8,12 @@ private:
     std::string loggedInEmail;
     static UserSession* instance;
 
-    // Private constructor
     UserSession() {}
 
 public:
-    // Delete copy constructor & assignment
     UserSession(const UserSession&) = delete;
     UserSession& operator=(const UserSession&) = delete;
 
-    // Access the Singleton instance
     static UserSession* getInstance();
 
     void login(const std::string& email);

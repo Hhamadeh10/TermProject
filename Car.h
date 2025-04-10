@@ -1,4 +1,3 @@
-// Car.h
 #ifndef CAR_H
 #define CAR_H
 
@@ -43,4 +42,4 @@ class Car {
     };
 
 
-#endif // CAR_H
+#endif

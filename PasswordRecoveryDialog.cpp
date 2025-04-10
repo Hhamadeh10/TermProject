@@ -36,7 +36,6 @@ void PasswordRecoveryDialog::showSecurityQuestions(const User& user) {
     std::vector<std::string> answers = user.getSecurityAnswers();
     std::vector<std::string> userInputs;
 
-    // Ask user the 3 questions using Qt dialogs
     for (int i = 0; i < 3; ++i) {
         bool ok;
         QString input = QInputDialog::getText(this, 
@@ -52,7 +51,6 @@ void PasswordRecoveryDialog::showSecurityQuestions(const User& user) {
         userInputs.push_back(input.toStdString());
     }
 
-    // Build the chain
     auto handler1 = new SecurityQuestionHandler(0, answers);
     auto handler2 = new SecurityQuestionHandler(1, answers);
     auto handler3 = new SecurityQuestionHandler(2, answers);

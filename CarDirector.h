@@ -18,7 +18,6 @@ class CarDirector {
                          const std::string& location,
                          double price) {
             
-            // Get currently logged-in user's email
             std::string ownerEmail = UserSession::getInstance()->getLoggedInEmail();
     
             return builder
@@ -33,4 +32,4 @@ class CarDirector {
         }
     };
 
-#endif // CARDIRECTOR_H
+#endif

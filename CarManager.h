@@ -20,8 +20,8 @@ public:
     std::vector<Car> getCarsByOwner(const std::string& email);
     std::vector<Car> getAvailableCarsExcludingUser(const std::string& userEmail, const std::string& locationFilter = "");
         
-    bool isCarAvailable(int carId, const std::string& startDate, const std::string& endDate); // ✅ New
-    bool bookCar(int carId, const std::string& startDate, const std::string& endDate, const std::string& renterEmail); // ✅ Updated
+    bool isCarAvailable(int carId, const std::string& startDate, const std::string& endDate);
+    bool bookCar(int carId, const std::string& startDate, const std::string& endDate, const std::string& renterEmail);
     void attachObserver(BookingObserver* observer);
     void notifyObservers(const std::string& message);
     bool deleteCarById(int id);
@@ -39,4 +39,4 @@ private:
 
 };
 
-#endif // CARMANAGER_H
+#endif

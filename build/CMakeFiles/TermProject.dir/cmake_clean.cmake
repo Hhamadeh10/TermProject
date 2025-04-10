@@ -30,6 +30,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TermProject.dir/PasswordRecoveryDialog.cpp.obj.d"
   "CMakeFiles/TermProject.dir/PaymentProxy.cpp.obj"
   "CMakeFiles/TermProject.dir/PaymentProxy.cpp.obj.d"
+  "CMakeFiles/TermProject.dir/RealPaymentService.cpp.obj"
+  "CMakeFiles/TermProject.dir/RealPaymentService.cpp.obj.d"
   "CMakeFiles/TermProject.dir/RegisterWindow.cpp.obj"
   "CMakeFiles/TermProject.dir/RegisterWindow.cpp.obj.d"
   "CMakeFiles/TermProject.dir/RenterBrowseUI.cpp.obj"

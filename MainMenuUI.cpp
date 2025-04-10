@@ -91,11 +91,11 @@ void MainMenuUI::loadOwnerCars() {
     std::vector<Car> cars = carManager->getCarsByOwner(email);
 
     carTable->setRowCount(static_cast<int>(cars.size()));
-    carIds.clear();  // ✅ clear previous IDs
+    carIds.clear();
 
     for (int i = 0; i < cars.size(); ++i) {
         const Car& car = cars[i];
-        carIds.push_back(car.getId());  // ✅ store car ID for that row
+        carIds.push_back(car.getId());
 
         carTable->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(car.getModel())));
         carTable->setItem(i, 1, new QTableWidgetItem(QString::number(car.getYear())));
@@ -104,29 +104,27 @@ void MainMenuUI::loadOwnerCars() {
         carTable->setItem(i, 4, new QTableWidgetItem(QString::fromStdString(car.getAvailability())));
         carTable->setItem(i, 5, new QTableWidgetItem(QString::number(car.getPricePerDay())));
 
-        addActionButtonsToRow(i);  // ✅ add edit/delete buttons
+        addActionButtonsToRow(i);
     }
 }
 
 void MainMenuUI::addActionButtonsToRow(int row) {
-    // Edit button
     QPushButton* editBtn = new QPushButton("Edit");
     connect(editBtn, &QPushButton::clicked, this, [=]() { onEditClicked(row); });
     carTable->setCellWidget(row, 6, editBtn);
 
-    // Delete button
     QPushButton* deleteBtn = new QPushButton("Delete");
     connect(deleteBtn, &QPushButton::clicked, this, [=]() { onDeleteClicked(row); });
     carTable->setCellWidget(row, 7, deleteBtn);
 }
 
 void MainMenuUI::onDeleteClicked(int row) {
-    int carId = carIds[row];  // ✅ get ID for this row
+    int carId = carIds[row];
 
     if (QMessageBox::question(this, "Delete", "Are you sure you want to delete this listing?") == QMessageBox::Yes) {
         if (carManager->deleteCarById(carId)) {
             QMessageBox::information(this, "Deleted", "Car deleted.");
-            loadOwnerCars(); // refresh
+            loadOwnerCars();
         } else {
             QMessageBox::warning(this, "Error", "Failed to delete car.");
         }
@@ -137,14 +135,13 @@ void MainMenuUI::onEditClicked(int row) {
     int carId = carIds[row];
     std::string ownerEmail = UserSession::getInstance()->getLoggedInEmail();
     
-    // Rebuild the Car object from the table data
     Car car(
-        carTable->item(row, 0)->text().toStdString(),  // model
-        carTable->item(row, 1)->text().toInt(),        // year
-        carTable->item(row, 2)->text().toInt(),        // mileage
-        carTable->item(row, 3)->text().toStdString(),  // location
-        carTable->item(row, 5)->text().toDouble(),     // price
-        carTable->item(row, 4)->text().toStdString()   // availability
+        carTable->item(row, 0)->text().toStdString(), 
+        carTable->item(row, 1)->text().toInt(),      
+        carTable->item(row, 2)->text().toInt(),   
+        carTable->item(row, 3)->text().toStdString(),
+        carTable->item(row, 5)->text().toDouble(),
+        carTable->item(row, 4)->text().toStdString()
     );
     car.setId(carId);
     car.setOwnerEmail(ownerEmail);
@@ -157,7 +154,7 @@ void MainMenuUI::onEditClicked(int row) {
         Car updatedCar = dialog.getUpdatedCar();
         if (carManager->updateCarById(updatedCar)) {
             QMessageBox::information(this, "Updated", "Car listing updated.");
-            loadOwnerCars();  // ✅ Refresh the table
+            loadOwnerCars();
         } else {
             QMessageBox::warning(this, "Error", "Failed to update car.");
         }
@@ -169,9 +166,8 @@ void MainMenuUI::onBackClicked() {
 }
 
 void MainMenuUI::showEvent(QShowEvent* event) {
-    QWidget::showEvent(event);  // Call base class method
+    QWidget::showEvent(event);
 
-    // ✅ Reload listings for current user when screen is shown
     loadOwnerCars();
 }
 

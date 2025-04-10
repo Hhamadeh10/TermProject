@@ -15,11 +15,9 @@
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
-    // ✅ Initialize UserManager and ensure users table exists
     UserManager userManager("driveshare.db");
     userManager.createUserTable();
 
-    // ✅ Initialize CarManager and ensure cars table exists
     CarManager carManager("driveshare.db");
     carManager.createCarTable();
 
@@ -29,7 +27,6 @@ int main(int argc, char *argv[]) {
     MessageManager messageManager("driveshare.db");
     messageManager.createMessageTable();
 
-    // ✅ Create the main stack widget and mediator
     QStackedWidget stack;
     DriveShareUIMediator mediator(&stack);
 
@@ -37,40 +34,26 @@ int main(int argc, char *argv[]) {
     PopupNotifier* popup = new PopupNotifier();
     notificationCenter->addObserver(popup);
 
-    PaymentProxy paymentProxy(&userManager);
+    PaymentProxy* paymentProxy = new PaymentProxy(&userManager);
 
-    // ✅ Instantiate screens and pass dependencies
-    qDebug() << "Creating LoginWindow...";
     MainWindow* loginUI = new MainWindow(&userManager, &mediator);
-
-    qDebug() << "Creating RegisterWindow...";
     RegisterWindow* registerUI = new RegisterWindow(&userManager, &mediator);
-
-    qDebug() << "Creating MainMenuUI...";
     MainMenuUI* mainMenu = new MainMenuUI(&carManager, &mediator);
-
-    qDebug() << "Creating RenterBrowseUI...";
-    RenterBrowseUI* renterUI = new RenterBrowseUI(&carManager, &bookingManager, &paymentProxy, &messageManager, &mediator, notificationCenter);
-
-    qDebug() << "Creating DashboardUI...";
+    RenterBrowseUI* renterUI = new RenterBrowseUI(&carManager, &bookingManager, paymentProxy, &messageManager, &mediator, notificationCenter);
     DashboardUI* dashboard = new DashboardUI(&mediator);
-
-    qDebug() << "Creating UserProfileUI...";
-    UserProfileUI* profileUI = new UserProfileUI(&carManager, &bookingManager, &paymentProxy, &messageManager, &mediator);
+    UserProfileUI* profileUI = new UserProfileUI(&carManager, &bookingManager, paymentProxy, &messageManager, &mediator);
 
     mediator.setMainMenuUI(mainMenu);
     mediator.setUserProfileUI(profileUI);
 
-    // ✅ Register all UI screens in stack (match indices with mediator logic)
     stack.addWidget(loginUI);     // index 0 - Login
     stack.addWidget(registerUI);  // index 1 - Register
     stack.addWidget(mainMenu);    // index 2 - Main Menu
-    stack.addWidget(dashboard);
-    stack.addWidget(renterUI);
-    stack.addWidget(profileUI);
+    stack.addWidget(dashboard);   // index 3 - Main Menu
+    stack.addWidget(renterUI);    // index 4 - Main Menu
+    stack.addWidget(profileUI);   // index 5 - Main Menu
     
     
-    // ✅ Start GUI
     stack.setWindowTitle("DriveShare");
     stack.resize(400, 500);
     stack.setCurrentIndex(0); // show login first

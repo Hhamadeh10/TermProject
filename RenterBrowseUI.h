@@ -28,7 +28,7 @@ private:
     std::vector<Car> currentResults;
     BookingManager* bookingManager;
     UIMediator* mediator;  
-    PaymentProxy* paymentProxy;
+    PaymentInterface* paymentProxy;
     NotificationCenter* notificationCenter;
     MessageManager* messageManager;
 

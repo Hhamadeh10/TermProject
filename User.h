@@ -27,4 +27,4 @@ class User {
         void setBalance(double value);
     };
 
-#endif // USER_H
+#endif
