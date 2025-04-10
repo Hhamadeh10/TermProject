@@ -1,0 +1,8 @@
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/sqlite3_c.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/TermProject.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/edit_cache.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/rebuild_cache.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/sqlite3_c_autogen_timestamp_deps.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/sqlite3_c_autogen.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/TermProject_autogen_timestamp_deps.dir
+C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/CMakeFiles/TermProject_autogen.dir

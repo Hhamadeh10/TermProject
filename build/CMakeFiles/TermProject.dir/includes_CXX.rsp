@@ -1,0 +1,1 @@
+-IC:/Users/HadiH/ONEDRI~1/DOCUME~1/CIS476~1/TERMPR~1/build/TERMPR~1/include -isystem C:/msys64/ucrt64/include/qt6/QtWidgets -isystem C:/msys64/ucrt64/include/qt6 -isystem C:/msys64/ucrt64/include/qt6/QtCore -isystem "C:/msys64/ucrt64/share/qt6/mkspecs/win32-g++" -isystem C:/msys64/ucrt64/include/qt6/QtGui

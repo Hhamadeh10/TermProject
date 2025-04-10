@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+3d02db6a552fe166ba7245d232f2f6bf CMakeFiles/TermProject_autogen
+3d02db6a552fe166ba7245d232f2f6bf CMakeFiles/sqlite3_c_autogen
+da9e1a2c08f2baabf9280d7d8e58bcee TermProject_autogen/timestamp
+9db9308b96d5b9fd67c653ac00a315ad sqlite3_c_autogen/timestamp

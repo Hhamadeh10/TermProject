@@ -1,0 +1,146 @@
+[
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/sqlite3_c.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\sqlite3_c.dir\\sqlite3_c_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\build\\sqlite3_c_autogen\\mocs_compilation.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/sqlite3_c_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/sqlite3_c.dir/sqlite3_c_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/sqlite3_c.dir/includes_C.rsp -g -o CMakeFiles\\sqlite3_c.dir\\sqlite3.c.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\sqlite3.c\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/sqlite3.c",
+  "output": "CMakeFiles/sqlite3_c.dir/sqlite3.c.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\TermProject_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\build\\TermProject_autogen\\mocs_compilation.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build/TermProject_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/TermProject.dir/TermProject_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\main.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\main.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/main.cpp",
+  "output": "CMakeFiles/TermProject.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\MainWindow.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\MainWindow.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/MainWindow.cpp",
+  "output": "CMakeFiles/TermProject.dir/MainWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\RegisterWindow.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\RegisterWindow.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/RegisterWindow.cpp",
+  "output": "CMakeFiles/TermProject.dir/RegisterWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\MainMenuUI.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\MainMenuUI.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/MainMenuUI.cpp",
+  "output": "CMakeFiles/TermProject.dir/MainMenuUI.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\User.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\User.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/User.cpp",
+  "output": "CMakeFiles/TermProject.dir/User.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\UserSession.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\UserSession.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/UserSession.cpp",
+  "output": "CMakeFiles/TermProject.dir/UserSession.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\Car.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\Car.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/Car.cpp",
+  "output": "CMakeFiles/TermProject.dir/Car.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\UserManager.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\UserManager.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/UserManager.cpp",
+  "output": "CMakeFiles/TermProject.dir/UserManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\PaymentProxy.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\PaymentProxy.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/PaymentProxy.cpp",
+  "output": "CMakeFiles/TermProject.dir/PaymentProxy.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\CarManager.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\CarManager.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/CarManager.cpp",
+  "output": "CMakeFiles/TermProject.dir/CarManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\Booking.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\Booking.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/Booking.cpp",
+  "output": "CMakeFiles/TermProject.dir/Booking.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\DriveShareUIMediator.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\DriveShareUIMediator.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/DriveShareUIMediator.cpp",
+  "output": "CMakeFiles/TermProject.dir/DriveShareUIMediator.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\EditCarDialog.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\EditCarDialog.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/EditCarDialog.cpp",
+  "output": "CMakeFiles/TermProject.dir/EditCarDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\BookingManager.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\BookingManager.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/BookingManager.cpp",
+  "output": "CMakeFiles/TermProject.dir/BookingManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\RenterBrowseUI.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\RenterBrowseUI.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/RenterBrowseUI.cpp",
+  "output": "CMakeFiles/TermProject.dir/RenterBrowseUI.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\DashboardUI.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\DashboardUI.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/DashboardUI.cpp",
+  "output": "CMakeFiles/TermProject.dir/DashboardUI.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\UserProfileUI.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\UserProfileUI.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/UserProfileUI.cpp",
+  "output": "CMakeFiles/TermProject.dir/UserProfileUI.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\PasswordRecoveryDialog.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\PasswordRecoveryDialog.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/PasswordRecoveryDialog.cpp",
+  "output": "CMakeFiles/TermProject.dir/PasswordRecoveryDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\MessageManager.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\MessageManager.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/MessageManager.cpp",
+  "output": "CMakeFiles/TermProject.dir/MessageManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\MessageUI.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\MessageUI.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/MessageUI.cpp",
+  "output": "CMakeFiles/TermProject.dir/MessageUI.cpp.obj"
+},
+{
+  "directory": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TermProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TermProject.dir\\Message.cpp.obj -c \"C:\\Users\\HadiH\\OneDrive - Umich\\Documents\\CIS 476\\Term Project\\Message.cpp\"",
+  "file": "C:/Users/HadiH/OneDrive - Umich/Documents/CIS 476/Term Project/Message.cpp",
+  "output": "CMakeFiles/TermProject.dir/Message.cpp.obj"
+}
+]
